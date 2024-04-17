@@ -1,0 +1,55 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "lato" sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color:black;
+}
+.container{
+    background-image: url(https://wallpapercave.com/wp/wp6058962.jpg);
+    min-height: 100%;
+}
+.container3{
+    background-image: url(https://img.freepik.com/free-photo/selective-focus-shot-beautiful-young-lady-praying-forest_181624-45015.jpg?t=st=1713262243~exp=1713265843~hmac=7665d530ce37050a2437a131ca4184e64496345b68d613890f9679e880c5a051&w=1060);
+    min-height: 400px;
+}
+.container5{
+    background-image: url(https://img.freepik.com/free-photo/concentrated-woman-meditating-nature_1098-1412.jpg?t=st=1713262290~exp=1713265890~hmac=2838d3517054368251e0807c8cdcda07b9b8ce9008e7df6122466bf868d2b8da&w=1060);
+    min-height: 400px;
+}
+.container,
+.container3,
+.container5
+ {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ }
+ .text2{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 8px;
+ text-transform: uppercase;
+    
+}
+.head1 {
+    background: #313534;
+    color: #fff;
+    padding: 20px;
+  }
+p{
+    text-align: center;
+    padding: 8px 10px;
+}
+  
+h2{
+    text-align: center;
+}
